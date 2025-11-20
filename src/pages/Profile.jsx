@@ -11,8 +11,8 @@ export default function Profile() {
 
   // Load profile from localStorage
   useEffect(() => {
-    const savedName = localStorage.getItem("profile_name") || "Wanz";
-    const savedNim = localStorage.getItem("profile_nim") || "230XXXX";
+    const savedName = localStorage.getItem("profile_name") || "Wan Azka Khairi Muhammad";
+    const savedNim = localStorage.getItem("profile_nim") || "21120123140150";
     const savedStatus = localStorage.getItem("profile_status") || "Mahasiswa";
 
     setName(savedName);
